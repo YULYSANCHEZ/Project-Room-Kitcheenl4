@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   display: flex;
-  background-image: url("/images/backgroun45.png");
+  background-image: url("images/backgroun45.png");
   background-size: 100% 100%;
 }
 
@@ -257,5 +257,6 @@ h1 {
 .customFont {
   font-family: "Creepster";
 }
+
 
 
