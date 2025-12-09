@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  background-image: url("/images/backgroun45.png");
+  background-size: 100% 100%;
+}
+
+.modalgold {
+  height: 100%;
+  width: 50%;
+}
+
+.row1 {
+  height: 100%;
+  width: 50%;
+  display: block;
+}
+.row2 {
+  height: 100%;
+  width: calc(25% / 2);
+  display: block;
+}
+.row3 {
+  height: 100%;
+  width: 25%;
+  display: block;
+}
+.row4 {
+  height: 100%;
+  width: calc(25% / 2);
+  display: block;
+}
+
+.box1 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
+.box2 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+
+.box3 {
+  height: 15%;
+  width: 100%;
+  display: ;
+}
+. {
+  height: ;
+  width: ;
+  display: ;
+}
+
+.lilBox1 {
+  height: 100%;
+  width: 60%;
+}
+
+.lilBox2 {
+  height: 100%;
+  width: 40%;
+}
+
+.box4 {
+  height: 60%;
+  width: 100%;
+}
+.box4-2 {
+  height: 40%;
+  width: 100%;
+}
+
+.box5 {
+  height: 35%;
+  width: 100%;
+}
+
+.box6 {
+  height: 65%;
+  width: 100%;
+}
+
+.box7 {
+  height: 25%;
+  width: 100%;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+}
+
+/* add satisfaction to click */
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  content: url("images/Flower.png");
+}
+
+/* opaque = not able to be seen through, the default opacity for elements is 1 */
+.opaque {
+  opacity: 0.5;
+}
+
+/* colors */
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: palevioletred;
+}
+.orange {
+  background-color: orangered;
+}
+.black .black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+.slate {
+  background-color: #1e171f;
+}
+/* you may choose to use this class for one of the challenges */
+.none {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Creepster", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4em;
+  text-align: center;
+  color: black;
+}
+.big-text {
+  font-size: 50px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  opacity: 0.95;
+}
+
+/* don't cover the entire screen */
+.modal-body {
+  display: flex;
+  width: 80%;
+  height: 70%;
+  background-color: rgb(148, 111, 9);
+  opacity: 1;
+  margin: 0;
+}
+
+.small-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.big-img1 {
+  height: 50%;
+  width: 70%;
+}
+.big-img2 {
+  height: 30%;
+  width: 80%;
+}
+
+.big-img3 {
+  height: 30%;
+  width: 60%;
+}
+.big-img3-1 {
+  height: 35%;
+  width: 35%;
+}
+
+.big-img4 {
+  height: 20%;
+  width: 25%;
+}
+
+.big-img4-1 {
+  height: 35%;
+  width: 30%;
+}
+
+.box-img4-2 {
+  height: 40%;
+  width: 40%;
+}
+
+.close {
+  color: #aaaaaa;
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.translucent {
+  opacity: 0.1;
+}
+
+.customFont {
+  font-family: "Creepster";
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS #1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Notice how each div has an 'onclick' attribute which links to a function in the JS file -->
+    <div class="row1">
+      <div class="box1">
+        <div class="lilBox1 center-content">
+          <img src="images/knife.png " class="clickable big-img1 " onclick="Modalshow3()"  />
+        </div>
+        <div class="lilBox2"></div>
+      </div>
+      <div class="box2"></div>
+      <div class="box3 center center-content">
+      
+      </div>
+    </div>
+    <div class="row2" onclick="">
+      <div class="box4 center-content">
+        <img src="images/note.png" class=" clickable big-img2" onclick="Modalshow4()" />
+      </div>
+      <div class="box4-2 center-content">
+        <img src="images/gold.png" class="clickable big-img3" onclick="Modalshow()" />
+      </div>
+    </div>
+    <div class="row3" onclick="">
+      <div class="box5"></div>
+      <div class="box6 center-content">
+        <img src="images/lock.png" class="clickable big-img4" onclick="Modalshow2()" />
+      </div>
+    </div>
+    <div class="row4" onclick="" id="">
+      <div class="box7 center-content ">
+        <img src="images/blackBox.png "id="one"  class=" clickable box-img4-2" onclick="BlackBox(this)" />
+      </div>
+      <div class="box7 center-content">
+        <img src="images/blackBox2.png"id="two"  class="clickable  box-img4-2" onclick="BlackBox2(this)"  />
+      </div>
+      <div class="box7 center-content">
+        <img src="images/blackBox3.png"id="three" class="clickable  box-img4-2"onclick="BlackBox3(this)" />
+      </div>
+      <div class="box7 center-content">
+        <img src="images/blackBox4.png" id="four" class=" clickable box-img4-2"onclick="BlackBox4(this)"  />
+      </div>
+    </div>
+
+    <div class="modal center-content" id="myModal">
+      <span class="close" onclick="Modalhide()">&times;</span>
+      <div class="modal-body">
+        <div class="modalgold center-content">
+          <img src="images/gold.png" id="goldheart" onclick=" CorrectGold() " class="big-img3-1"  />
+        
+        </div>
+        <div class="modalgold center-content">
+          <div class="box7 center-content">
+            <img src="images/one.png"id="square1" onclick="changeNumber1(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/one.png"id="square2" onclick="changeNumber2(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/one.png"id="square3" onclick="changeNumber3(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/one.png" id="square4" onclick="changeNumber4(this)" class="small-img clickable" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal center-content" id="myModal2">
+      <span class="close" onclick="Modalhide2()">&times;</span>
+      <div class="modal-body">
+        <div class="modalgold center-content">
+          <img src="images/lock.png" id="lock" class="big-img4-1 " />
+        </div>
+        <div class="modalgold center-content">
+          <div class="box7 center-content">
+            <img src="images/f.png"id="face1" onclick="changeLetters1(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/r.png"id="face2" onclick="changeLetters2(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/a.png"id="face3" onclick="changeLetters3(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/p.png" id="face4" onclick="changeLetters4(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/e.png"id="face5" onclick="changeLetters5(this)" class="small-img clickable" />
+          </div>
+          <div class="box7 center-content">
+            <img src="images/s.png" id="face6" onclick="changeLetters6(this)" class="small-img clickable" />
+          </div>
+        </div>
+       
+        
+        </div>
+      </div>
+      <div class="modal center-content" id="myModal3">
+        <span class="close" onclick="Modalhide3()">&times;</span>
+        <div class="modal-body center-content">
+          <h1 class="big-text h1">----Violets are RED roses are PINK, the sky is BLUE and trees are GREEN-----Hint: Use Colored Numbers
+          </h1> 
+          </div>
+          
+          </div>
+        </div>
+        <div class="modal center-content" id="myModal4">
+          <span class="close" onclick="Modalhide4()">&times;</span>
+          <div class="modal-body center-content" >
+            <h1 class="customFont big-text">I’m in the kitchen now??? I need to GET OUTTTTT!!</h1>
+
+            </div>
+          
+            </div>-
+          </div>
+      
+
+    </div>
+    <audio src="sounds\paper.wav" type="audio/wav" id="papersound"></audio>
+    <audio src="sounds\Type.wav" type="audio/wav" id="Type"></audio>
+    <audio src="sounds\LockSound.wav" type="audio/wav" id="LockSound"></audio>
+    <audio src="sounds/Box.wav" type="audio/wav" id="Box"></audio>
+    <audio src="sounds\win1.wav" type="audio/wav" id="win1"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
