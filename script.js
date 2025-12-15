@@ -247,7 +247,7 @@ function Correctletters() {
     face5.src.includes("p.png") &&
     face6.src.includes("e.png")
   ) {
-    window.location.href = "https://qlhy3p.csb.app/ ";
+    window.location.href = " https://jared-garcia29.github.io/ESCAPEROOM/";
   }
 }
 
@@ -285,3 +285,10 @@ function BlackBox4(img) {
     document.getElementById("four").classList.add("non_clickable");
   }
 }
+
+
+window.addEventListener("load", () => {
+  const music = document.querySelector("audio");
+  music.volume = 1.5; // optional
+  music.play();
+});
